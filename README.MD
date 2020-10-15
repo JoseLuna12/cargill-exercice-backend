@@ -45,3 +45,6 @@ All the http requests are made to the link: `http://localhost:8000/api`, port `8
     - Edit a Pond
     - Erase a Pond
     - Save the last time where the shrimps in a Pond where feeded
+
+### Notes
+Replace the id in the test's urls with a actual database id
