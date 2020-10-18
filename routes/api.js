@@ -4,7 +4,7 @@ const pondController = require('../controller/pond.controller')
 const app = express();
 
 //Farm API
-app.post('/addFarm', farmController.createFarm);            // Create a New Farm
+app.post('/addFarm', farmController.checkFarmName, farmController.createFarm);            // Create a New Farm
 app.get('/farmSize/:id', farmController.getFarmSize);       // Get the total size of a Farm by id
 app.get('/getFarms', farmController.getAllFarms);           // Get all the farms
 app.get('/getFarm/:id', farmController.getOneFarm);         // Get one farm by id

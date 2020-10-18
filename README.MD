@@ -48,3 +48,7 @@ All the http requests are made to the link: `http://localhost:8000/api`, port `8
 
 ### Notes
 Replace the id in the test's urls with a actual database id
+
+## Changes
+- Added naming control to avoid same farm names
+- Changed spaces from 4 to 2
